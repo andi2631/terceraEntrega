@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\OneDrive\\Desktop\\ProgramacionRedesFINAL\\terceraEntrega\\ObligatorioProgramacionRedes\\ObligatorioProgramacionRedes\\Protocol\\Protocol.csproj": {}
+    "C:\\Users\\User\\OneDrive\\Desktop\\ProgramacionRedesFINAL\\terceraEntrega\\ObligatorioProgramacionRedes\\ObligatorioProgramacionRedes\\GrpcServer\\GrpcServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\OneDrive\\Desktop\\ProgramacionRedesFINAL\\terceraEntrega\\ObligatorioProgramacionRedes\\ObligatorioProgramacionRedes\\Protocol\\Protocol.csproj": {
+    "C:\\Users\\User\\OneDrive\\Desktop\\ProgramacionRedesFINAL\\terceraEntrega\\ObligatorioProgramacionRedes\\ObligatorioProgramacionRedes\\GrpcServer\\GrpcServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\ProgramacionRedesFINAL\\terceraEntrega\\ObligatorioProgramacionRedes\\ObligatorioProgramacionRedes\\Protocol\\Protocol.csproj",
-        "projectName": "Protocol",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\ProgramacionRedesFINAL\\terceraEntrega\\ObligatorioProgramacionRedes\\ObligatorioProgramacionRedes\\Protocol\\Protocol.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\ProgramacionRedesFINAL\\terceraEntrega\\ObligatorioProgramacionRedes\\ObligatorioProgramacionRedes\\GrpcServer\\GrpcServer.csproj",
+        "projectName": "GrpcServer",
+        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\ProgramacionRedesFINAL\\terceraEntrega\\ObligatorioProgramacionRedes\\ObligatorioProgramacionRedes\\GrpcServer\\GrpcServer.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\ProgramacionRedesFINAL\\terceraEntrega\\ObligatorioProgramacionRedes\\ObligatorioProgramacionRedes\\Protocol\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\ProgramacionRedesFINAL\\terceraEntrega\\ObligatorioProgramacionRedes\\ObligatorioProgramacionRedes\\GrpcServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -27,6 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,9 +46,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "System.Configuration.ConfigurationManager": {
+            "Grpc.AspNetCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[2.40.0, )"
             }
           },
           "imports": [
@@ -62,6 +63,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

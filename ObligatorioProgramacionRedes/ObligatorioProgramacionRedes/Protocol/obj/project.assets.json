@@ -330,11 +330,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\ObligatorioProgramacionRedes\\ObligatorioProgramacionRedes\\Protocol\\Protocol.csproj",
+      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\ProgramacionRedesFINAL\\terceraEntrega\\ObligatorioProgramacionRedes\\ObligatorioProgramacionRedes\\Protocol\\Protocol.csproj",
       "projectName": "Protocol",
-      "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\ObligatorioProgramacionRedes\\ObligatorioProgramacionRedes\\Protocol\\Protocol.csproj",
+      "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\ProgramacionRedesFINAL\\terceraEntrega\\ObligatorioProgramacionRedes\\ObligatorioProgramacionRedes\\Protocol\\Protocol.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\ObligatorioProgramacionRedes\\ObligatorioProgramacionRedes\\Protocol\\obj\\",
+      "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\ProgramacionRedesFINAL\\terceraEntrega\\ObligatorioProgramacionRedes\\ObligatorioProgramacionRedes\\Protocol\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
